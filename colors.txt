@@ -1,0 +1,6 @@
+922b30 red
+88b17a green
+c88439 pic & field border
+E8E8E8 faq text
+525252 bottom footer *
+9B6313 contact background
