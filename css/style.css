@@ -128,7 +128,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #000000 url(../images/bg.jpg) no-repeat top center;
+   background: #000000 url(../images/bread.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -186,7 +186,7 @@ header .banner-text hr {
 }
 
 .header-overlay {  
-  background: #000000 url(../images/bg-blur.jpg) no-repeat top center;     
+  background: #000000 url(../images/bread-blur.jpg) no-repeat top center;     
   background-size:  cover!important;
   position: absolute;
   top: 0;
@@ -1251,6 +1251,28 @@ ul#nav li a:hover {
 	 display: inline-block;
 	 float: left;
    width: 10%;
+}
+/*Placeholder text color*/
+::-webkit-input-placeholder {
+    color: #9B6313;
+}
+
+:-moz-placeholder {
+ /* Firefox 18- */
+    color: #9B6313;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+    color: #9B6313;
+}
+
+:-ms-input-placeholder {
+    color: #9B6313;
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+    color: #9B6313;
 }
 /*After write text color*/
 #contact input,

@@ -1,23 +1,34 @@
-x load screen color  dark red=922b30  >  light red=b87070
-x change default styling colors dark red=922b30  >  light red=b87070 (replaced #11abb0)
-x white trim on logo
-x house pic on about section
-x Call to action section - xmas tree icon w/ best wishes greeting
-x scroll bar color
-NOTE: pinkish=ed5565 > green=88b17a
-x Put names on about us pics
-x Add pinterest icon to social
-x Make call to action section gold
-x Make tree green
-x Center text in call to action section
-x Bottom up arrow has a teal rollover -- make this green
-x Change trophy icons to something different
-x Change nutrition facts colors
-x Find good pictures
-x header bar color
-footer bar color
-change diamond colors in faq's
-x change contact us colors 
-use gazdebo pic?
-change form field text color
+GENRAL DESIGN
+	x load screen color  dark red=922b30  >  light red=b87070
+	x change default styling colors dark red=922b30  >  light red=b87070 (replaced #11abb0)
+	x white trim on logo
+	x house pic on about section
+	x Call to action section - xmas tree icon w/ best wishes greeting
+	x scroll bar color
+	NOTE: pinkish=ed5565 > green=88b17a
+	x Put names on about us pics
+	x Add pinterest icon to social
+	x Make call to action section gold
+	x Make tree green
+	x Center text in call to action section
+	x Bottom up arrow has a teal rollover -- make this green
+	x Change trophy icons to something different
+	x Change nutrition facts colors
+	x Find good pictures
+	x header bar color
+	x footer bar color
+	x change diamond colors in faq's
+	x change contact us colors 
+	x use gazdebo pic?
+	x change form field text color
+	Change text field scroll bar colors in IE
 
+
+RESPONSIVE DESIGN
+	<900px width should show mobile nav.  This is not working on ipad mini.
+	Home screen down button should dissapear on <900px
+	ipad mini portrait is smushing bio pics & text.  Pics should shrink.
+	
+	
+	
+	
