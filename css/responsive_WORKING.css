@@ -15,7 +15,7 @@ TOC :
 
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
-@media only screen and (min-width : 768px) and (max-width: 1024px) {
+@media only screen and (min-width : 769px) and (max-width: 1024px) {
 
     /* header styles
    ------------------------------------------------------------------ */
@@ -52,7 +52,7 @@ TOC :
 
     /* header styles
    ------------------------------------------------------------------ */
-   header .banner { padding-bottom: 12px; }
+/*   header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
       font: 78px/1.1em 'Open Sans', sans-serif;
       letter-spacing: -1px;      
@@ -75,12 +75,12 @@ TOC :
 
    /* Resume Section
    ------------------------------------------------------------------- */
-   #resume h1 { font: 16px/24px 'Open Sans', sans-serif; }
+   /*#resume h1 { font: 16px/24px 'Open Sans', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
-   #testimonials .header-col h1:before {
+  /* #testimonials .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
    }
@@ -91,14 +91,14 @@ TOC :
 
     /* Call to Action Section
    ------------------------------------------------------------------- */
-   #call-to-action .header-col h1:before {
+   /*#call-to-action .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
    }
 
    /* Contact Section
    ------------------------------------------------------------------- */
-   #contact .section-head { margin-bottom: 30px; }
+   /*#contact .section-head { margin-bottom: 30px; }
    #contact .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
@@ -111,7 +111,7 @@ TOC :
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
 
-@media only screen and (max-width: /*768 turns nav mobile*/767px) {
+@media only screen and (max-width: /*768 turns nav mobile orig 767*/768px) {
 
    /* mobile navigation
    -------------------------------------------------------------------- */
@@ -261,18 +261,19 @@ TOC :
    }
 
   #about .bio-left {
-    height: auto;
+    height: 850px;
     padding: 60px 30px;
   }
 
   #about .main-col {
     padding: 20px;
-    height: auto;
+    height: 850px;
   }
 
    #about .pp-container{
       padding: 0;
-    }
+      display: block;
+  }
 
 
    /* Resume Section
