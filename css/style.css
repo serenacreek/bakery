@@ -1,6 +1,6 @@
 /*
 ====================================================
-*   Intima Layout Stylesheet
+*   SCB Layout Stylesheet
 ====================================================
 
    TOC:
@@ -252,8 +252,8 @@ header .scrolldown a {
    line-height: 42px;
    z-index: 3;
    border-radius: 100%;
-   -webkit-animation: updown .5s linear 1s infinite alternate; /* Chrome, Safari, Opera */
-   animation: updown .5s linear 1s infinite alternate;
+   -webkit-animation: updown 1s linear 1s infinite alternate; /* Chrome, Safari, Opera */
+   animation: updown 1s linear 1s infinite alternate;
 
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
@@ -1336,13 +1336,14 @@ input[placeholder], [placeholder], *[placeholder] {
   background: none repeat scroll 0 0 #F78155;
   display: none;
   font-size: 16px;
+  font-weight: bold;
   margin: 0 auto 20px;
   padding: 50px 15px;
   text-align: center;
   width: 90%;
 }
 #message-warning { color: #D11E07; }
-#message-success { color: #88B17A; }
+#message-success { color: #fff/*#88B17A*/; }
 
 #message-warning i,
 #message-success i {

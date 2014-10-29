@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Access to /serenacreek"
+AuthUserFile /kunden/homepages/18/d246590030/htpasswd
+Require user the613

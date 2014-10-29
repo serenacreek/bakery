@@ -22,6 +22,7 @@ GENRAL DESIGN
 	x use gazdebo pic?
 	x change form field text color
 	Change text field scroll bar colors in IE
+	Add warning message for out of date browsers
 
 
 RESPONSIVE DESIGN
